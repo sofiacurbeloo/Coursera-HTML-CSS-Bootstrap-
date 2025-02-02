@@ -1,0 +1,141 @@
+@font-face {
+    font-family: 'Netflix Sans';
+    font-weight: 400;
+    font-display: optional;
+    src: url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Rg.woff2) format('woff2'),url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Rg.woff) format('woff')
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Netflix Sans;
+}
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi1SXyuZWK49noBjYpF6B_uAPSy2ZejU711kS8crhcM96FJIhlEDsqxS63Nap98e7QlU4VGtat5KiWPnrMSHK3Wvf7UCGBhGqIAObWYZS23QWNVD8HQ8U3-8LbymLe_zb7316mX-4NqWRn3wXk-r-0PxFIFjurAwE2WHPOPifFlfS1xmS4endzESOUG0A/s2560/la-casa-de-papel-serial-free-printable-posters-005.jpg");
+    background-size:cover;
+}
+
+/* Main */
+
+.main{
+    /* width: 100vw;
+    height: 100vh; */
+    font-weight: bolder;
+  
+}
+
+
+.topbar{
+    display: flex;
+    width: 100%;
+}
+
+.netflix-logo{
+    width: 6.5em;
+}
+
+
+li {
+    list-style: none;
+    color: #bbbbbb;
+    width: 100%;
+    font-size: 14px;
+}
+
+a{
+    color: #fff;
+}
+
+.second-items > i {
+    color: #fff;
+    font-size: 20px;
+    padding: 15px;
+
+}
+
+/* Content */
+
+.content {
+    margin-top: 35vh;
+}
+
+.title > img {
+    width: 45vw;
+    margin-left: 15px;
+}
+
+p{
+    color: #bbb;
+    letter-spacing: 2.7px;
+    font-size: 13px;
+    font-weight: bolder;
+}
+
+.buttons {
+   margin-left: 1vw;
+}
+
+.play-btn{
+    background-color: #fff;
+    font-size: 17px;
+    font-weight: bolder;
+    width: 10vw;
+}
+
+.my-list-btn{
+    width: 15vw;
+}
+
+.play-btn:hover{
+    background-color: #bbb;
+}
+
+.my-list-btn:hover{
+    background-color: #444;    
+}
+
+.play-btn, .my-list-btn {
+    height: 7vh;
+    border-radius: 5px;
+    margin-top: 35px;
+    margin-right: 5px;
+    border: none;
+}
+
+.age-limit{
+    background-color: #66666644;
+    color: #fff;
+    width: 6%;
+    height: 35px;
+    padding-left: 10px;
+    border-left: 2px solid #fff;
+    font-size: 15px;
+}
+
+
+@media screen and (max-width: 800px){
+
+    .title > img{
+        margin: auto;
+        width: 90vw;
+    }
+
+    .buttons{
+        margin-left: 3vw;
+    }
+
+    .play-btn{
+        width: 30vw;
+    }
+
+    .my-list-btn{
+        width: 40vw;
+    }
+
+    .age-limit{
+        width: 20%;
+    }
+    
+}
